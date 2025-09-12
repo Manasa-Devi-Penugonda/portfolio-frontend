@@ -6,7 +6,6 @@ import axios from 'axios';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 console.log(BACKEND_URL)
-const API = `http://localhost:5000/api`;
 
 const Contact = ({ data }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -49,7 +48,7 @@ const Contact = ({ data }) => {
     setIsSubmitting(true);
     
     try {
-      const response = await axios.post(`${API}/contact`, formData);
+      const response = await axios.post(`${BACKEND_URL}/api/contact`, formData);
       
       if (response.data.success) {
         toast({
