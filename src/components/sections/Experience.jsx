@@ -32,7 +32,7 @@ const Experience = ({ data }) => {
             <span className="font-bold bg-gradient-to-r from-emerald-600 to-emerald-500 bg-clip-text text-transparent"> Experience</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Building scalable solutions and leading technical initiatives with focus on AWS integrations and modern web technologies.
+            Building scalable cloud-native applications and leading technical initiatives with expertise in AWS, Generative AI, and serverless architectures.
           </p>
         </div>
 
@@ -91,44 +91,54 @@ const Experience = ({ data }) => {
                   </div>
                   
                   {/* Technologies used */}
-                  <div className="mt-6 pt-6 border-t border-gray-200">
-                    <div className="flex flex-wrap gap-2">
-                      {['AWS Lambda', 'S3', 'SES', 'API Gateway', 'EventBridge', 'CloudWatch', 'Node.js', 'React.js', 'IMAP'].map((tech, techIndex) => (
-                        <span
-                          key={techIndex}
-                          className="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-sm font-medium"
-                        >
-                          {tech}
-                        </span>
-                      ))}
+                  {experience.technologies && (
+                    <div className="mt-6 pt-6 border-t border-gray-200">
+                      <div className="flex flex-wrap gap-2">
+                        {experience.technologies.map((tech, techIndex) => (
+                          <span
+                            key={techIndex}
+                            className="px-3 py-1 bg-emerald-100 text-emerald-700 rounded-full text-sm font-medium"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>
           ))}
         </div>
         
-        {/* Education Section */}
+        {/* Education & Certifications Section */}
         <div className={`mt-16 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <div className="bg-gradient-to-r from-emerald-50 to-green-50 rounded-2xl p-8">
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center mr-4">
                 <Award size={20} className="text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900">Education & Recognition</h3>
+                <h3 className="text-xl font-bold text-gray-900">Education, Certifications & Achievements</h3>
               </div>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">Bachelor of Science (MPC)</h4>
-                <p className="text-gray-600">Krishnaveni Degree College, Narasaraopet (2018-2021)</p>
+                <p className="text-gray-600">Krishnaveni Degree College (2021)</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-2">AWS Certified Developer – Associate</h4>
+                <p className="text-gray-600">Amazon Web Services</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-2">INSPIRE Scholarship</h4>
                 <p className="text-gray-600">Department of Science and Technology, Government of India (2018)</p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-2">Generative AI Certifications</h4>
+                <p className="text-gray-600">Skill Nation & Outskill</p>
               </div>
             </div>
           </div>

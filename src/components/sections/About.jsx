@@ -23,9 +23,9 @@ const About = ({ data }) => {
   }, []);
 
   const stats = [
-    { icon: Code, value: "2.7+", label: "Years Experience" },
-    { icon: Award, value: "1", label: "Government Scholarship" },
-    { icon: Users, value: "Module", label: "Lead Role" },
+    { icon: Code, value: "3+", label: "Years Experience" },
+    { icon: Award, value: "AWS", label: "Certified Developer" },
+    { icon: Users, value: "Gen AI", label: "Specialist" },
   ];
 
   return (
@@ -82,8 +82,8 @@ const About = ({ data }) => {
                   className="w-full h-80 object-cover rounded-xl"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-emerald-600 text-white p-4 rounded-lg shadow-lg">
-                  <div className="text-lg font-bold">Full Stack</div>
-                  <div className="text-sm opacity-90">Developer</div>
+                  <div className="text-lg font-bold">Cloud</div>
+                  <div className="text-sm opacity-90">Engineer</div>
                 </div>
               </div>
             </div>

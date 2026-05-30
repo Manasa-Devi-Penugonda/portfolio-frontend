@@ -33,7 +33,7 @@ const Projects = ({ data }) => {
             <span className="font-bold bg-gradient-to-r from-emerald-600 to-emerald-500 bg-clip-text text-transparent"> Projects</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            A collection of projects showcasing my expertise in full-stack development, AWS integrations, and modern web technologies.
+            A collection of projects showcasing my expertise in cloud engineering, Generative AI, serverless architectures, and full-stack development.
           </p>
         </div>
 

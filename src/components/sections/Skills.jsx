@@ -58,7 +58,7 @@ const Skills = ({ data }) => {
             <span className="font-bold bg-gradient-to-r from-emerald-600 to-emerald-500 bg-clip-text text-transparent"> Arsenal</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Experienced in modern web technologies and cloud platforms, with expertise in full-stack development and AWS integrations.
+            Experienced in cloud-native development, Generative AI, and modern web technologies with a focus on AWS services and serverless architectures.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ const Skills = ({ data }) => {
           <div className="bg-white rounded-2xl p-8 shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Specialized In</h3>
             <div className="flex flex-wrap justify-center gap-4">
-              {['AWS Lambda', 'React.js', 'Node.js', 'MongoDB', 'System Integration', 'API Development'].map((tech, index) => (
+              {['AWS Bedrock', 'Amazon Lex', 'AWS Lambda', 'React.js', 'Node.js', 'Generative AI'].map((tech, index) => (
                 <div
                   key={index}
                   className="px-6 py-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-full font-medium hover:shadow-lg transition-all duration-200 hover:scale-105"
