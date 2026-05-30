@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-frontend/static/css/main.219b0517.css",
-    "main.js": "/portfolio-frontend/static/js/main.d727885d.js",
+    "main.js": "/portfolio-frontend/static/js/main.fd5f10c8.js",
     "static/media/working-women.jpg": "/portfolio-frontend/static/media/working-women.ea5dc63e53ab5bf3afed.jpg",
     "index.html": "/portfolio-frontend/index.html",
     "main.219b0517.css.map": "/portfolio-frontend/static/css/main.219b0517.css.map",
-    "main.d727885d.js.map": "/portfolio-frontend/static/js/main.d727885d.js.map"
+    "main.fd5f10c8.js.map": "/portfolio-frontend/static/js/main.fd5f10c8.js.map"
   },
   "entrypoints": [
     "static/css/main.219b0517.css",
-    "static/js/main.d727885d.js"
+    "static/js/main.fd5f10c8.js"
   ]
 }
